@@ -1,0 +1,5 @@
+# Default: tap maintainer reviews everything.
+* @aaronlippold
+
+# Per-formula ownership — releases of each tool push its generated formula.
+/Formula/claude-statusline.rb @aaronlippold
