@@ -36,3 +36,14 @@ Per-formula ownership is tracked in [CODEOWNERS](.github/CODEOWNERS).
 ## Documentation
 
 `brew help`, `man brew`, or check [Homebrew's documentation](https://docs.brew.sh).
+
+## License
+
+Licensed under the Apache License, Version 2.0 — see [LICENSE.md](LICENSE.md).
+
+### NOTICE
+
+© 2026 The MITRE Corporation. Approved for Public Release; Distribution
+Unlimited. Case Number 18-3678.
+
+See [NOTICE.md](NOTICE.md) for full terms.
