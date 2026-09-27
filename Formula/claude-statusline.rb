@@ -6,26 +6,26 @@
 class ClaudeStatusline < Formula
   desc "Fast, configurable status line for Claude Code"
   homepage "https://github.com/mitre/claude-statusline"
-  version "0.1.1"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.1.1/claude-statusline-0.1.1-darwin-arm64.tar.gz"
-      sha256 "a91b07d3d2ec83742f2764a0e01ffef78be76aa1ac432396ad4c029feb928f90"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.2.0/claude-statusline-0.2.0-darwin-arm64.tar.gz"
+      sha256 "605a9d29670c9d73ed73629572ce07c816e929d2646335fa1ee6181b6bca3263"
     else
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.1.1/claude-statusline-0.1.1-darwin-amd64.tar.gz"
-      sha256 "3d3c798292bfb296a89fd3822bff0bfb902121233b8d3ffe15c9be52e36c85a1"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.2.0/claude-statusline-0.2.0-darwin-amd64.tar.gz"
+      sha256 "737246f1e4f2c9d84a6d876a2a94f4c685929df7c781831aa25ad62860ba2929"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.1.1/claude-statusline-0.1.1-linux-arm64.tar.gz"
-      sha256 "5aa626f7232f770444721c8385b1dc8c9a2e0e75fbb71f9cddfb3586ec914dd7"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.2.0/claude-statusline-0.2.0-linux-arm64.tar.gz"
+      sha256 "a406f43f8cb04b7577a14fb11db632708bc04a9701dbb43dc983435634840e10"
     else
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.1.1/claude-statusline-0.1.1-linux-amd64.tar.gz"
-      sha256 "b042a09d0e6bdb1aa07d6a8d627bafe553a9ec09a12ab2f04e9ab2440943e207"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.2.0/claude-statusline-0.2.0-linux-amd64.tar.gz"
+      sha256 "49961557f4565cd7aa3b6f506dd5ce99ebead1c70ca871e5bf2e0d80836e4de2"
     end
   end
 
