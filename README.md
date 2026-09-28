@@ -2,6 +2,12 @@
 
 The Homebrew tap for MITRE command-line tools.
 
+## Formulae
+
+| Formula | Description | Source |
+|---|---|---|
+| `claude-statusline` | Fast, configurable status line for Claude Code — single static Go binary | [mitre/claude-statusline](https://github.com/mitre/claude-statusline) |
+
 ## How do I install these formulae?
 
 ```sh
@@ -35,7 +41,14 @@ Per-formula ownership is tracked in [CODEOWNERS](.github/CODEOWNERS).
 
 ## Documentation
 
-`brew help`, `man brew`, or check [Homebrew's documentation](https://docs.brew.sh).
+- [Publishing your project's formula here](docs/adopting.md) — the adoption
+  guide, with [mitre/claude-statusline](https://github.com/mitre/claude-statusline)
+  as the reference implementation
+- [Operating this tap](docs/operations.md) — publisher app, credential
+  lifecycle, CI, incident response
+
+For Homebrew itself: `brew help`, `man brew`, or
+[Homebrew's documentation](https://docs.brew.sh).
 
 ## License
 
