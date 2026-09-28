@@ -71,9 +71,15 @@ Suspected key exposure or a rogue formula push:
 ## CI in this repository
 
 - **`tests.yml` (`brew test-bot`)** runs on every push to `main` and every
-  PR, across macOS (Intel + Apple silicon images) and Linux: it builds each
-  changed formula and runs its `test do` stanza. A pipeline-pushed formula
-  that fails here is your signal to look at the source project's release.
+  PR across macOS (Intel + Apple silicon images) and Linux — but with
+  different depth: **pull requests** get the full treatment (each changed
+  formula is built and its `test do` stanza runs); **direct pushes to
+  `main`** — which is how pipeline-generated formulas arrive — get tap
+  syntax checks only (`test-bot`'s formula builds are PR-scoped). The
+  build-level verification for a pipeline push is therefore the source
+  project's own post-release check: its release runbook ends with a real
+  `brew install` of the new version, and a failure there is your signal to
+  look at that project's release.
 - **`publish.yml` (`brew pr-pull`)** is the manual-dispatch path for
   hand-maintained formula PRs (bottle pulling); pipeline-generated formulas
   do not use it.
