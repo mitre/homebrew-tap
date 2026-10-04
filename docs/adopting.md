@@ -68,5 +68,8 @@ supported mechanism.
 - [ ] After your first release: `brew install mitre/tap/<your-tool>` on a
       real machine, and the installed tool reports the released version
 
-This tap's `brew test-bot` CI runs on every push, so a formula that does
-not build or pass its test stanza is caught on landing.
+This tap's `brew test-bot` CI fully builds and tests formulas on pull
+requests; direct pushes to `main` (the pipeline path) get syntax checks
+only — which is why the checklist's final step, a real `brew install`
+after your release, is not optional: it is the build-level verification
+for pipeline-published formulas.
