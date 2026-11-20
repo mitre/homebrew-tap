@@ -15,23 +15,23 @@ class ClaudeStatusline < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.0/claude-statusline-0.4.0-darwin-arm64.tar.gz"
-      sha256 "90bd2b09f1b9d5f3e92689b2b553659ff1cdc1a3333379985bdf7a056597a0d7"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.1/claude-statusline-0.4.1-darwin-arm64.tar.gz"
+      sha256 "70247158382675895269381b3f69796a3132c74c4c284f65ea5a865b8597484d"
     end
     on_intel do
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.0/claude-statusline-0.4.0-darwin-amd64.tar.gz"
-      sha256 "982b3ada625217ba0fa456aa552422cabd2a98548c04b9ae9925331fee862d5e"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.1/claude-statusline-0.4.1-darwin-amd64.tar.gz"
+      sha256 "c1f594370cace2523fec1d1e3ff68abbec0c43b5ab43f645247e4d8880f1ac4f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.0/claude-statusline-0.4.0-linux-arm64.tar.gz"
-      sha256 "53579930106e581c6fb1e32fa2fbe828d9b4eb9303bbafbe61bb3c5d9b77d4d2"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.1/claude-statusline-0.4.1-linux-arm64.tar.gz"
+      sha256 "3b6defb10828ae9a218ad8a1d99fa97e0c628192027288e03d87d92dc8c5a5d7"
     end
     on_intel do
-      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.0/claude-statusline-0.4.0-linux-amd64.tar.gz"
-      sha256 "f141c94b668cb26e6f85911b98f5c25ab77ca6875c0bda94d83d4306ae29dd8b"
+      url "https://github.com/mitre/claude-statusline/releases/download/v0.4.1/claude-statusline-0.4.1-linux-amd64.tar.gz"
+      sha256 "d10637ae754306d55f7934c2e6c4ca6c3b2bb11413decdb0a5cbc1d7de505022"
     end
   end
 
